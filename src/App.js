@@ -25,9 +25,7 @@ function reducer(state = initialState, action) {
 
 const store = createStore(reducer);
 console.log("redux store created", store.getState());
-store.dispatch({ type: "INCREMENT" });
-console.log("done dispatching action", store.getState());
-store.dispatch({ type: "INCREMENT" });
+
 // console.log("done dispatching action", store.getState());
 // store.dispatch({ type: "INCREMENT" });
 // console.log("done dispatching action", store.getState());
